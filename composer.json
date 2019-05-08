@@ -1,0 +1,27 @@
+{
+	"name": "yii2extension/yii2-encrypt",
+	"type": "yii2-extension",
+	"keywords": [
+		"yii2",
+		"encrypt"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yamshikov Vitaliy",
+			"email": "theyamshikov@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"yii2extension\\encrypt\\": "src",
+			"yii2extension\\encrypt\\tests\\": "tests"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"nickcv/yii2-encrypter": "*",
+		"php": ">=5.4.0"
+	}
+}
